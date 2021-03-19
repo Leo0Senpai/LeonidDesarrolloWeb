@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	height: 108%
+}
+.Container {
+	width: 100%;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+}
+.Custom-btn {
+	margin-top: 10%;
+	border: none;
+	color: #FFF;
+	background: #16A085;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-radius: 0.5%;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.Custom-btn:hover{
+	background: #FF7777;
+}
+/*====Header====*/
+header {
+	background-image: url(Imagenes/Fondo1.jpg);
+	color: #FFF;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header nav {
+	padding-top: 5%;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 70px;
+}
+
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+header .title {
+	margin-top: 20%;
+	margin-bottom: 20%
+}
+
+header .title span {
+	display: block;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+/*CHOOSE CLASS*/
+.ChooseClass {
+	padding: 10% 0%;
+	background-image: url(Imagenes/Fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div > .head_section > h2{
+	font-weight: bold;
+	font-size: 40px;
+}
+.head_section {
+	width: 45%;
+	margin: auto;
+	margin-top: 2%;
+
+}
+
+.Images {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.img{
+	height: 200px;
+	width: 200px;
+	margin:5%;
+	display: inline-block;
+	object-fit: cover;
+}
+
+.img > .sub-images{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+.texto-images {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.texto-images .txt-img{
+	margin-top: 0%;
+	margin: 0 5% 5% 5%;
+	display: inline-block;
+	max-width: 14%;
+}
+
+.txt-img h3 {
+	margin-top: 0%;
+	margin-bottom: 7%;
+}
+
+/*OUR STATS*/
+.ChooseClass2 {
+	padding: 10% 0%;
+	background-image: url(Imagenes/Fondo4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Circle {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.Circle_outline{
+	border: 8px solid;
+	border-color: white;
+	margin-top: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+div > .Circle > .Circle_outline > h3{
+	margin-top: 30%;
+}
+
+/*BEAST INSTRUCTOR*/ /*NEW EXPERIENCE*/
+.ChooseClass3 {
+	background-image: url(Imagenes/Fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ChooseClass4 {
+	background-image: url(Imagenes/Fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.beast_instructor {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 100%;	
+}
+
+.BI {
+	width: 100%;
+	max-width: 50%;
+
+}
+
+.img_beast {
+	width: 100%;
+}
+.img_beast2 {
+	width: 100%;
+	padding: 10%
+}
+
+.BI .contenedor-BI {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 50%;
+	margin-left: 15%;
+	text-align: left;
+}
+
+.BI .contenedor-BI2 {
+	padding: 2%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 50%;
+	margin-left: 15%;
+	text-align: left;
+}
+
+
+.BI .contenedor-BI h2 {
+	padding-top: 6%;
+}
+
+/*Pricing*/
+.ChooseClass5 {
+	background-image: url(Imagenes/Fondo7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.di_pricing {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	padding-top: 7%;
+}
+
+.di_pricing h2{
+	margin: 5%;
+}
+
+.Images_Pricing {
+	width: 100%;
+}
+
+.img_p {
+	color: gray;
+	margin-top: 5%;
+	width: 20%;
+	margin: 2%;
+	background-color: #fff;
+	margin-bottom: 10%;
+	display: inline-block;
+}
+
+.sub_img_p {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+
+/*Trainer Devendra*/
+.ChooseClass6 {
+	background-image: url(Imagenes/Fondo8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.trainer{
+	padding: 10%;
+}
+
+.trainer p {
+	margin: auto;
+	padding: 3%;
+	font-size: 30px;
+	width: 70%;
+
+}
+
+.trainer h2 {
+	font-size: 50px;
+	font-weight: bold; 
+}
+
+.img-trainer {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+/*Trainer Devendra*/
+.ChooseClass7 {
+	background-image: url(Imagenes/Fondo7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.miss-out {
+	width: 100%;
+}
+
+.miss-out-f1{
+	width: 100%;
+}
+
+.tittle-miss-out{
+	margin: auto;
+	width: 50%;
+	padding: 10%;
+}
+
+.tittle-miss-out h2 {
+	padding-bottom: 15%;
+	font-size: 50px;
+}
+
+.tittle-miss-out p{
+	font-size: 20px;
+	text-align: justify;
+	width: 90%;
+	margin: auto;
+}
+
+.tittle-miss-out input{
+	padding: 9px 10px 9px 32px;
+	margin-top: 6%;
+	outline: none;
+	font-size: 15px;
+	border-radius: 20px;
+	color: #444;
+	border: 3px solid #A50559;
+	width: 60%;
+}
+
+.tittle-miss-out button:hover{
+	background-color: #fff;
+	border-color: #8C10B3;
+	box-shadow: 0 0 5px;
+}
+
+.tittle-miss-out button{
+	padding: 9px 10px 9px 32px;
+	margin-top: 6%;
+	margin-left: -5%;
+	outline: none;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 20px;
+	color: #444;
+	border: 3px solid #A50559;
+	width: 30%;
+}
+
+.final{
+	width: 20%;
+	display: inline-block;
+}
+
+.miss-out-f2 {
+	width: 100%;
+}
+
+.final {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10%;
+}
+
+.tittle-final {
+	margin-top: 8%;
+	padding: 0px;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+
+.tittle-final h2{
+	font-size: 30px;
+}
+
+.sub-tittle-final{
+	margin-top: 3%;
+	text-align: center;
+	width: 270px;
+	display: inline-block;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
